@@ -20,9 +20,9 @@ $(document).ready(function () {
         var categorySearch = snapshot.val().category;
 
         // create a card with button in the saved search area
-        var wrapperDiv = $("<div class='card text-center' style='width: 18rem;'>");
+        var wrapperDiv = $("<div class='card text-center'>");
         wrapperDiv.attr("id", key);
-        var bodyDiv = $("<div class='card text-center' style='width: 18rem'>");
+        var bodyDiv = $("<div class='card text-center'>");
         var headerTag = $("<h5 class='card-title'>");
         headerTag.attr("id, title" + key);
         headerTag.text(citySearch);
